@@ -8,3 +8,39 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#testoAlterato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 2em;
+}
+
+div {
+  border: 2px solid #000000;
+  padding: 1em;
+}
+
+.parole {
+  color: rgb(137, 165, 220);
+}
+
+.arole:hover {
+  animation: rot;
+}
