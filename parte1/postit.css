@@ -77,3 +77,21 @@ p {
   margin: 2em;
   transform: rotate(5deg);
 }
+
+.postit:hover {
+  transform: rotate(0deg);
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.postit-2:hover {
+  transform: rotate(0deg);
+  transform: scale(1.2);
+  z-index: 1;
+}
+
+.postit-3:hover {
+  transform: rotate(0deg);
+  transform: scale(1.2);
+  z-index: 1;
+}
